@@ -1,6 +1,6 @@
 # .calm
 
-.calm, pronounced "dot calm,"—a play on "dot com"—is an aesthetics dump using the Gatsby framework that takes inspiration from the likes of VSCO and Pinterest. It aims to challenge the toxic nature of social media platforms by exploring alternatives like the slow web. .calm seeks to promote a more tranquil and mindful online experience, where users can enjoy content without the fast-paced and often stressful nature of typical social media. Images can be explored by clicking on any of them to view in more detail.
+.calm, pronounced "dot calm,"—a personal aesthetics dump built using the Gatsby framework, draws inspiration from the styles of VSCO and Pinterest. It aims to challenge the toxic nature of social media platforms by exploring alternatives like the slow web. Images can be explored by clicking on any of them to view in more detail.
 
 ## Acknowledgments
 
