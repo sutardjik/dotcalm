@@ -9,7 +9,6 @@ export default function HTML(props) {
         <meta name="robots" content="noindex, nofollow" />
         <link rel="icon" href="/img/favicon.ico" />
         <title>.calm</title>
-        {/* Add other meta tags, links, or scripts here */}
         {props.headComponents}
       </head>
       <body>

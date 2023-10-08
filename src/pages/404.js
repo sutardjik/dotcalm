@@ -1,49 +1,24 @@
 import * as React from "react"
 import { Link } from "gatsby"
-
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
-
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
+import "../style.css"
 
 const NotFoundPage = () => {
   return (
-    <main style={pageStyles}>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry 😔, we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
+    <main>
+      <div className="content">
+        <div className="content-container">
+          <h1>oops! it seems you’ve taken a wrong turn.</h1>
+          <br/>
+          <h2>the page you’re looking for has wandered off somewhere,<br/>but don’t worry, you’re not lost.</h2>
+          <h2>let’s get you back on track:<br/>return to the <Link to="/">homepage</Link> and navigate from there.</h2>
+          <br/>
+          <h2>thanks for stopping by, and happy browsing!</h2>
+        </div>
+      </div>
     </main>
   )
 }
 
 export default NotFoundPage
 
-export const Head = () => <title>Not found</title>
+export const Head = () => <title>lost in cyberspace</title>
