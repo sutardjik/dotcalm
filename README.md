@@ -1,6 +1,6 @@
 # .calm
 
-.calm, pronounced "dot calm," is an aesthetics dump that takes inspiration from the likes of VSCO and Pinterest.
+.calm, pronounced "dot calm," is an aesthetics dump using the Gatsby framework that takes inspiration from the likes of VSCO and Pinterest.
 
 ## Acknowledgments
 
