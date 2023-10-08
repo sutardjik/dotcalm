@@ -1,0 +1,173 @@
+@font-face {
+    font-family: EOR;
+    src: url(../src/fonts/PPEditorialOld-Regular.otf);
+}
+
+@font-face {
+    font-family: EOU;
+    src: url(../src/fonts/PPEditorialOld-Ultralight.otf);
+}
+
+@font-face {
+    font-family: NMM;
+    src: url(../src/fonts/PPNeueMontrealMono-Book.otf);
+}
+
+* {
+    text-decoration: none;
+}
+
+html, 
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: var(--bg);
+    cursor: default;
+}
+
+:root {
+    --bg: #F9FAEE;
+    --selector: #DCFF93;
+    --green: #393D10;
+    --fw: 100;
+}
+
+::selection {
+    color: var(--green);
+    background: var(--selector);
+}
+
+h1 {
+    font-family: EOR;
+    font-weight: var(--fw);
+    font-size: 40px;
+    color: var(--green);
+}
+
+h2{
+    font-family: EOU;
+    font-weight: var(--fw);
+    font-size: 30px;
+    color: var(--green) !important;
+}
+
+h3{
+    font-family: NMM;
+    font-weight: var(--fw);
+    font-size: 20px;
+    color: var(--green);
+}
+
+a{
+    text-decoration: dotted underline;
+}
+
+a:hover{
+    text-decoration: none;
+    cursor: ne-resize;
+}
+
+a:visited{
+    color: var(--green) !important;
+}
+
+.content {
+    padding-top: 10vh;
+    text-align: center;
+}
+
+.content-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.img-display .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+  
+.img-display .gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.img-display .gallery-item {
+    margin: 25px;
+}
+  
+.img-display .gallery-image {
+    width: 300px;
+    height: auto;
+}
+
+.img-display .gallery img:hover{
+    cursor: zoom-in;
+}
+
+.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    cursor: zoom-out;
+}
+  
+  .lightbox img {
+    max-width: 50%;
+    max-height: 50%;
+    object-fit: contain;
+  }
+  
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+  
+@media screen and (max-width: 400px){
+    .img-display .gallery-image{
+        width: 250px;
+    }
+    
+    .lightbox img {
+        max-width: 85%;
+        max-height: 85%;
+    }
+    
+}
+
+@media screen and (min-width: 401px) and (max-width: 550px){
+    .lightbox img {
+        max-width: 80%;
+        max-height: 80%;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 650px){
+    .lightbox img {
+        max-width: 70%;
+        max-height: 70%;
+    }
+}
+
+@media screen and (min-width: 651px) and (max-width: 700px){
+    .lightbox img {
+        max-width: 70%;
+        max-height: 70%;
+    }
+}
