@@ -8,7 +8,7 @@ Internet gems that are not mine are accredited to [Six N. Five](https://sixnfive
 
 ## Development
 
-```
+```bash
 # clone project
 git clone https://github.com/sutardjik/dotcalm.git
 cd dotcalm

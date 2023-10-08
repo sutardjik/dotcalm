@@ -10,6 +10,9 @@ const NotFoundPage = () => {
           <br/>
           <h2>the page you’re looking for has wandered off somewhere.</h2>
           <h2>thanks for stopping by, and happy browsing!</h2>
+          <br/>
+          <br/>
+          <br/>
         </div>
       </div>
     </main>
