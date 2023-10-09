@@ -26,4 +26,4 @@ const NotFoundPage = () => {
 
 export default NotFoundPage
 
-export const Head = () => <title>lost in cyberspace</title>
+export const Head = () => <title>lost in cyberspace • .calm</title>
