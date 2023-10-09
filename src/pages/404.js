@@ -13,8 +13,8 @@ const NotFoundPage = () => {
           height="100"
           loading="lazy" alt=""
         />
-          <h1>oops!<br/>it seems you’ve taken a wrong turn.</h1>
-          <h2>the page you’re looking for has wandered off somewhere.</h2>
+          <h1>oops!</h1>
+          <h2>it seems you’ve taken a wrong turn.<br/>the page you’re looking for has wandered off somewhere.</h2>
           <br/>
           <br/>
           <br/>
