@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import Lightbox from './Lightbox';
+import sun from "../../img/sun.png";
+import overunder from "../../img/overunder.png";
+import necklace from "../../img/necklace.png";
 import sydney from "../../img/sydney.png";
 import folktalespirits from "../../img/folktalespirits.png";
 import gontrancherrier from "../../img/gontrancherrier.png";
@@ -35,6 +38,9 @@ const Gallery = () => {
   };
 
   const images = [
+    { src: sun, alt: "" },
+    { src: overunder, alt: "" },
+    { src: necklace, alt: "" },
     { src: sydney, alt: "" },
     { src: folktalespirits, alt: "" },
     { src: gontrancherrier, alt: "" },
