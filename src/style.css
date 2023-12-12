@@ -149,27 +149,29 @@ a:visited{
     
     .lightbox img {
         max-width: 85%;
-        max-height: 85%;
     }
 }
 
 @media screen and (min-width: 401px) and (max-width: 550px){
     .lightbox img {
         max-width: 80%;
-        max-height: 80%;
     }
 }
 
 @media screen and (min-width: 550px) and (max-width: 650px){
     .lightbox img {
         max-width: 70%;
-        max-height: 70%;
     }
 }
 
 @media screen and (min-width: 651px) and (max-width: 700px){
     .lightbox img {
         max-width: 70%;
-        max-height: 70%;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px){
+    .lightbox img {
+        max-width: 45%;
     }
 }

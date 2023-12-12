@@ -1,8 +1,15 @@
 import React, { useState } from "react";
 import Lightbox from './Lightbox';
 import sun from "../../img/sun.png";
+import letian from "../../img/letian.png";
+import elephants from "../../img/elephants.png";
+import bar from "../../img/bar.png";
+import swarovski from "../../img/swarovski.png";
 import overunder from "../../img/overunder.png";
 import necklace from "../../img/necklace.png";
+import yayoikusama from "../../img/yayoikusama.png";
+import maisonmargiela from "../../img/maisonmargiela.png";
+import hunjuice from "../../img/hunjuice.png";
 import sydney from "../../img/sydney.png";
 import folktalespirits from "../../img/folktalespirits.png";
 import gontrancherrier from "../../img/gontrancherrier.png";
@@ -38,9 +45,16 @@ const Gallery = () => {
   };
 
   const images = [
+    { src: elephants, alt: "" },
+    { src: letian, alt: "" },
     { src: sun, alt: "" },
+    { src: bar, alt: "" },
     { src: overunder, alt: "" },
+    { src: swarovski, alt: "" },
     { src: necklace, alt: "" },
+    { src: yayoikusama, alt: "" },
+    { src: maisonmargiela, alt: "" },
+    { src: hunjuice, alt: "" },
     { src: sydney, alt: "" },
     { src: folktalespirits, alt: "" },
     { src: gontrancherrier, alt: "" },
