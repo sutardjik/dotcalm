@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Lightbox from './Lightbox';
 import sun from "../../img/sun.png";
-import letian from "../../img/letian.png";
+import zetian from "../../img/zetian.png";
 import elephants from "../../img/elephants.png";
 import bar from "../../img/bar.png";
 import swarovski from "../../img/swarovski.png";
@@ -15,10 +15,8 @@ import folktalespirits from "../../img/folktalespirits.png";
 import gontrancherrier from "../../img/gontrancherrier.png";
 import ramune from "../../img/ramune.png";
 import cd from "../../img/cd.png";
-import isseymiyake from "../../img/isseymiyake.png";
-import zeus from "../../img/zeus.png";
 import takashimurakami from "../../img/takashimurakami.png";
-import cafe from "../../img/cafe.png";
+import zeus from "../../img/zeus.png";
 import burberry from "../../img/burberry.png";
 import dine from "../../img/dine.png";
 import outfits from "../../img/outfits.png";
@@ -46,7 +44,7 @@ const Gallery = () => {
 
   const images = [
     { src: elephants, alt: "" },
-    { src: letian, alt: "" },
+    { src: zetian, alt: "" },
     { src: sun, alt: "" },
     { src: bar, alt: "" },
     { src: overunder, alt: "" },
@@ -60,10 +58,8 @@ const Gallery = () => {
     { src: gontrancherrier, alt: "" },
     { src: ramune, alt: "" },
     { src: cd, alt: "" },
-    { src: isseymiyake, alt: "" },
-    { src: zeus, alt: "" },
     { src: takashimurakami, alt: "" },
-    { src: cafe, alt: "" },
+    { src: zeus, alt: "" },
     { src: burberry, alt: "" },
     { src: dine, alt: "" },
     { src: outfits, alt: "" },
