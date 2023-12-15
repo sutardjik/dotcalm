@@ -1,11 +1,16 @@
 import React, { useState } from "react";
 import Lightbox from './Lightbox';
-import sun from "../../img/sun.png";
-import zetian from "../../img/zetian.png";
+import annakiki from "../../img/annakiki.png";
+import universe from "../../img/universe.png";
+import electricguitar from "../../img/electricguitar.png";
+import cinematapes from "../../img/cinematapes.png";
 import elephants from "../../img/elephants.png";
+import rock from "../../img/rock.png";
+import zetian from "../../img/zetian.png";
+import sun from "../../img/sun.png";
 import bar from "../../img/bar.png";
-import swarovski from "../../img/swarovski.png";
 import overunder from "../../img/overunder.png";
+import swarovski from "../../img/swarovski.png";
 import necklace from "../../img/necklace.png";
 import yayoikusama from "../../img/yayoikusama.png";
 import maisonmargiela from "../../img/maisonmargiela.png";
@@ -43,7 +48,12 @@ const Gallery = () => {
   };
 
   const images = [
+    { src: annakiki, alt: "" },
+    { src: universe, alt: "" },
+    { src: electricguitar, alt: "" },
+    { src: cinematapes, alt: "" },
     { src: elephants, alt: "" },
+    { src: rock, alt: "" },
     { src: zetian, alt: "" },
     { src: sun, alt: "" },
     { src: bar, alt: "" },
