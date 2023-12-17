@@ -17,7 +17,6 @@ import maisonmargiela from "../../img/maisonmargiela.png";
 import hunjuice from "../../img/hunjuice.png";
 import sydney from "../../img/sydney.png";
 import folktalespirits from "../../img/folktalespirits.png";
-import gontrancherrier from "../../img/gontrancherrier.png";
 import ramune from "../../img/ramune.png";
 import cd from "../../img/cd.png";
 import takashimurakami from "../../img/takashimurakami.png";
@@ -65,7 +64,6 @@ const Gallery = () => {
     { src: hunjuice, alt: "" },
     { src: sydney, alt: "" },
     { src: folktalespirits, alt: "" },
-    { src: gontrancherrier, alt: "" },
     { src: ramune, alt: "" },
     { src: cd, alt: "" },
     { src: takashimurakami, alt: "" },
