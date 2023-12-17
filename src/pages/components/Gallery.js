@@ -15,8 +15,8 @@ import necklace from "../../img/necklace.png";
 import yayoikusama from "../../img/yayoikusama.png";
 import maisonmargiela from "../../img/maisonmargiela.png";
 import hunjuice from "../../img/hunjuice.png";
-import sydney from "../../img/sydney.png";
 import folktalespirits from "../../img/folktalespirits.png";
+import sydney from "../../img/sydney.png";
 import ramune from "../../img/ramune.png";
 import cd from "../../img/cd.png";
 import takashimurakami from "../../img/takashimurakami.png";
@@ -62,8 +62,8 @@ const Gallery = () => {
     { src: yayoikusama, alt: "" },
     { src: maisonmargiela, alt: "" },
     { src: hunjuice, alt: "" },
-    { src: sydney, alt: "" },
     { src: folktalespirits, alt: "" },
+    { src: sydney, alt: "" },
     { src: ramune, alt: "" },
     { src: cd, alt: "" },
     { src: takashimurakami, alt: "" },
