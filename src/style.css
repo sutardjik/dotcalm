@@ -65,17 +65,13 @@ h3{
 
 a {
     text-decoration: none;
-    border-bottom-width: 1px;
-    border-bottom-style: dashed;
-    border-bottom-color: underline;
+    border-bottom: 1px dashed;
 }
-
 
 a:hover{
     text-decoration: none;
+    border-bottom: 0px;
     cursor: ne-resize;
-    border-bottom-width: 0px;
-    border-bottom-style: none;
 }
 
 a:visited{
