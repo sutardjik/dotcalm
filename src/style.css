@@ -63,13 +63,19 @@ h3{
     color: var(--text);
 }
 
-a{
-    text-decoration: dotted underline;
+a {
+    text-decoration: none;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: underline;
 }
+
 
 a:hover{
     text-decoration: none;
     cursor: ne-resize;
+    border-bottom-width: 0px;
+    border-bottom-style: none;
 }
 
 a:visited{

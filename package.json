@@ -29,6 +29,7 @@
     "http-cache-semantics": "^4.1.1",
     "json5": "^1.0.2",
     "loader-utils": "^3.2.1",
+    "msgpackr": "^1.10.1",
     "postcss": "^8.4.31",
     "semver": "^5.7.2",
     "sharp": "^0.32.6",
