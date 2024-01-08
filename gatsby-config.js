@@ -13,7 +13,6 @@ module.exports = {
         sitemap: 'https://www.dotcalm.pages.dev/sitemap/sitemap-index.xml', 
         policy: [
           { userAgent: '*', disallow: '/' },
-          { userAgent: '*', disallow: '/static/img/' },
           { userAgent: '*', disallow: '/static/' },
           { userAgent: '*', disallow: '/src/img/' },
         ],

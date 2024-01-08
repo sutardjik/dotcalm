@@ -1,16 +1,16 @@
 @font-face {
     font-family: EOR;
-    src: url(../public/static/fonts/PPEditorialOld-Regular.otf);
+    src: url(../src/fonts/PPEditorialOld-Regular.otf);
 }
 
 @font-face {
     font-family: EOU;
-    src: url(../public/static/fonts/PPEditorialOld-Ultralight.otf);
+    src: url(../src/fonts/PPEditorialOld-Ultralight.otf);
 }
 
 @font-face {
     font-family: NMM;
-    src: url(../public/static/fonts/PPNeueMontrealMono-Book.otf);
+    src: url(../src/fonts/PPNeueMontrealMono-Book.otf);
 }
 
 * {
