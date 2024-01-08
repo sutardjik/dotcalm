@@ -15,13 +15,14 @@ module.exports = {
           { userAgent: '*', disallow: '/' },
           { userAgent: '*', disallow: '/static/img/' },
           { userAgent: '*', disallow: '/static/' },
+          { userAgent: '*', disallow: '/src/img/' },
         ],
       },
     },
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        icon: 'public/static/img/favicon.ico',
+        icon: 'src/img/favicon.ico',
       },
     },
   ],
