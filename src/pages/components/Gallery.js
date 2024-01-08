@@ -1,39 +1,40 @@
 import React, { useState } from "react";
 import Lightbox from './Lightbox';
-import annakiki from "../../img/annakiki.png";
-import universe from "../../img/universe.png";
-import electricguitar from "../../img/electricguitar.png";
-import cinematapes from "../../img/cinematapes.png";
-import elephants from "../../img/elephants.png";
-import rock from "../../img/rock.png";
-import zetian from "../../img/zetian.png";
-import sun from "../../img/sun.png";
-import bar from "../../img/bar.png";
-import overunder from "../../img/overunder.png";
-import swarovski from "../../img/swarovski.png";
-import necklace from "../../img/necklace.png";
-import yayoikusama from "../../img/yayoikusama.png";
-import maisonmargiela from "../../img/maisonmargiela.png";
-import hunjuice from "../../img/hunjuice.png";
-import folktalespirits from "../../img/folktalespirits.png";
-import sydney from "../../img/sydney.png";
-import ramune from "../../img/ramune.png";
-import cd from "../../img/cd.png";
-import takashimurakami from "../../img/takashimurakami.png";
-import zeus from "../../img/zeus.png";
-import burberry from "../../img/burberry.png";
-import dine from "../../img/dine.png";
-import outfits from "../../img/outfits.png";
-import art from "../../img/art.png";
-import potions from "../../img/potions.png";
-import streetwear from "../../img/streetwear.png";
-import gentlemonster from "../../img/gentlemonster.png";
-import air from "../../img/air.png";
-import airplane from "../../img/airplane.png";
-import mountain from "../../img/mountain.png";
-import park from "../../img/park.png";
-import classical from "../../img/classical.png";
-import aerialtram from "../../img/aerialtram.png";
+import lyrics from "../../../public/static/img/lyrics.png";
+import annakiki from "../../../public/static/img/annakiki.png";
+import universe from "../../../public/static/img/universe.png";
+import electricguitar from "../../../public/static/img/electricguitar.png";
+import cinematapes from "../../../public/static/img/cinematapes.png";
+import elephants from "../../../public/static/img/elephants.png";
+import rock from "../../../public/static/img/rock.png";
+import zetian from "../../../public/static/img/zetian.png";
+import sun from "../../../public/static/img/sun.png";
+import bar from "../../../public/static/img/bar.png";
+import overunder from "../../../public/static/img/overunder.png";
+import swarovski from "../../../public/static/img/swarovski.png";
+import necklace from "../../../public/static/img/necklace.png";
+import yayoikusama from "../../../public/static/img/yayoikusama.png";
+import maisonmargiela from "../../../public/static/img/maisonmargiela.png";
+import hunjuice from "../../../public/static/img/hunjuice.png";
+import folktalespirits from "../../../public/static/img/folktalespirits.png";
+import sydney from "../../../public/static/img/sydney.png";
+import ramune from "../../../public/static/img/ramune.png";
+import cd from "../../../public/static/img/cd.png";
+import takashimurakami from "../../../public/static/img/takashimurakami.png";
+import zeus from "../../../public/static/img/zeus.png";
+import burberry from "../../../public/static/img/burberry.png";
+import dine from "../../../public/static/img/dine.png";
+import outfits from "../../../public/static/img/outfits.png";
+import art from "../../../public/static/img/art.png";
+import potions from "../../../public/static/img/potions.png";
+import streetwear from "../../../public/static/img/streetwear.png";
+import gentlemonster from "../../../public/static/img/gentlemonster.png";
+import air from "../../../public/static/img/air.png";
+import airplane from "../../../public/static/img/airplane.png";
+import mountain from "../../../public/static/img/mountain.png";
+import park from "../../../public/static/img/park.png";
+import classical from "../../../public/static/img/classical.png";
+import aerialtram from "../../../public/static/img/aerialtram.png";
 
 const Gallery = () => {
   const [lightboxImage, setLightboxImage] = useState(null);
@@ -47,6 +48,7 @@ const Gallery = () => {
   };
 
   const images = [
+    {src: lyrics, alt: ""},
     { src: annakiki, alt: "" },
     { src: universe, alt: "" },
     { src: electricguitar, alt: "" },

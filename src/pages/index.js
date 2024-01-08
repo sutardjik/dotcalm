@@ -1,5 +1,5 @@
 import * as React from "react"
-import icon from "../img/icon.svg"
+import icon from "../../public/static/img/icon.svg"
 import Gallery from "./components/Gallery";
 import "../style.css"
 

@@ -14,14 +14,14 @@ module.exports = {
         policy: [
           { userAgent: '*', disallow: '/' },
           { userAgent: '*', disallow: '/static/img/' },
-          { userAgent: '*', disallow: '/src/img/' },
+          { userAgent: '*', disallow: '/static/' },
         ],
       },
     },
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        icon: 'src/img/favicon.ico',
+        icon: 'public/static/img/favicon.ico',
       },
     },
   ],
