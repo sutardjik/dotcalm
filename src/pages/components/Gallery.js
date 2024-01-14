@@ -1,8 +1,15 @@
 import React, { useState } from "react";
 import Lightbox from './Lightbox';
+
+import cement from "../../img/cement.png";
+import sculpturegarden from "../../img/sculpturegarden.png";
+import isseymiyake from "../../img/isseymiyake.png";
+import offwhite from "../../img/offwhite.png";
+import flowerpainting from "../../img/flowerpainting.png";
 import lyrics from "../../img/lyrics.png";
-import annakiki from "../../img/annakiki.png";
+import loewe from "../../img/loewe.png";
 import universe from "../../img/universe.png";
+import annakiki from "../../img/annakiki.png";
 import electricguitar from "../../img/electricguitar.png";
 import cinematapes from "../../img/cinematapes.png";
 import elephants from "../../img/elephants.png";
@@ -48,9 +55,15 @@ const Gallery = () => {
   };
 
   const images = [
-    {src: lyrics, alt: ""},
-    { src: annakiki, alt: "" },
+    { src: cement, alt: "" },
+    { src: sculpturegarden, alt: "" },
+    { src: isseymiyake, alt: "" },
+    { src: offwhite, alt: "" },
+    { src: flowerpainting, alt: "" },
+    { src: lyrics, alt: "" },
+    { src: loewe, alt: "" },
     { src: universe, alt: "" },
+    { src: annakiki, alt: "" },
     { src: electricguitar, alt: "" },
     { src: cinematapes, alt: "" },
     { src: elephants, alt: "" },
