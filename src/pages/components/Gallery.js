@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Lightbox from './Lightbox';
 
-import cement from "../../img/cement.png";
+import asocietyoffgod from "../../img/asocietyoffgod.png";
 import sculpturegarden from "../../img/sculpturegarden.png";
 import isseymiyake from "../../img/isseymiyake.png";
 import offwhite from "../../img/offwhite.png";
@@ -55,7 +55,7 @@ const Gallery = () => {
   };
 
   const images = [
-    { src: cement, alt: "" },
+    { src: asocietyoffgod, alt: "" },
     { src: sculpturegarden, alt: "" },
     { src: isseymiyake, alt: "" },
     { src: offwhite, alt: "" },
