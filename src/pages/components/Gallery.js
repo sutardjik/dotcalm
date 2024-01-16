@@ -14,14 +14,13 @@ import electricguitar from "../../img/electricguitar.png";
 import cinematapes from "../../img/cinematapes.png";
 import elephants from "../../img/elephants.png";
 import rock from "../../img/rock.png";
-import zetian from "../../img/zetian.png";
+import swarovski from "../../img/swarovski.png";
 import sun from "../../img/sun.png";
 import bar from "../../img/bar.png";
 import overunder from "../../img/overunder.png";
-import swarovski from "../../img/swarovski.png";
+import maisonmargiela from "../../img/maisonmargiela.png";
 import necklace from "../../img/necklace.png";
 import yayoikusama from "../../img/yayoikusama.png";
-import maisonmargiela from "../../img/maisonmargiela.png";
 import hunjuice from "../../img/hunjuice.png";
 import folktalespirits from "../../img/folktalespirits.png";
 import sydney from "../../img/sydney.png";
@@ -68,14 +67,13 @@ const Gallery = () => {
     { src: cinematapes, alt: "" },
     { src: elephants, alt: "" },
     { src: rock, alt: "" },
-    { src: zetian, alt: "" },
+    { src: swarovski, alt: "" },
     { src: sun, alt: "" },
     { src: bar, alt: "" },
     { src: overunder, alt: "" },
-    { src: swarovski, alt: "" },
+    { src: maisonmargiela, alt: "" },
     { src: necklace, alt: "" },
     { src: yayoikusama, alt: "" },
-    { src: maisonmargiela, alt: "" },
     { src: hunjuice, alt: "" },
     { src: folktalespirits, alt: "" },
     { src: sydney, alt: "" },
