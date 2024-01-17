@@ -5,7 +5,6 @@ import asocietyoffgod from "../../img/asocietyoffgod.png";
 import sculpturegarden from "../../img/sculpturegarden.png";
 import isseymiyake from "../../img/isseymiyake.png";
 import offwhite from "../../img/offwhite.png";
-import flowerpainting from "../../img/flowerpainting.png";
 import lyrics from "../../img/lyrics.png";
 import loewe from "../../img/loewe.png";
 import universe from "../../img/universe.png";
@@ -58,7 +57,6 @@ const Gallery = () => {
     { src: sculpturegarden, alt: "" },
     { src: isseymiyake, alt: "" },
     { src: offwhite, alt: "" },
-    { src: flowerpainting, alt: "" },
     { src: lyrics, alt: "" },
     { src: loewe, alt: "" },
     { src: universe, alt: "" },
