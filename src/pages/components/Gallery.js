@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Lightbox from './Lightbox';
 
+import orchid from "../../img/orchid.png";
 import asocietyoffgod from "../../img/asocietyoffgod.png";
 import sculpturegarden from "../../img/sculpturegarden.png";
 import isseymiyake from "../../img/isseymiyake.png";
@@ -16,7 +17,7 @@ import rock from "../../img/rock.png";
 import swarovski from "../../img/swarovski.png";
 import sun from "../../img/sun.png";
 import bar from "../../img/bar.png";
-import overunder from "../../img/overunder.png";
+import ohnodarling from "../../img/ohnodarling.png";
 import maisonmargiela from "../../img/maisonmargiela.png";
 import necklace from "../../img/necklace.png";
 import yayoikusama from "../../img/yayoikusama.png";
@@ -53,6 +54,7 @@ const Gallery = () => {
   };
 
   const images = [
+    { src: orchid, alt: "" },
     { src: asocietyoffgod, alt: "" },
     { src: sculpturegarden, alt: "" },
     { src: isseymiyake, alt: "" },
@@ -68,7 +70,7 @@ const Gallery = () => {
     { src: swarovski, alt: "" },
     { src: sun, alt: "" },
     { src: bar, alt: "" },
-    { src: overunder, alt: "" },
+    { src: ohnodarling, alt: "" },
     { src: maisonmargiela, alt: "" },
     { src: necklace, alt: "" },
     { src: yayoikusama, alt: "" },
