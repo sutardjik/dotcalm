@@ -100,22 +100,20 @@ const Gallery = () => {
 
   return (
     <div className="gallery">
-      <div className="gallery-row">
-        {images.map((image, index) => (
-          <div key={index} className="gallery-item">
-            <img
-              src={image.src}
-              alt={image.alt}
-              className="gallery-image"
-              loading="lazy"
-              onClick={() => openLightbox(image.src)}
-            />
-          </div>
-        ))}
-        {lightboxImage && (
+      {images.map((image, index) => (
+        <div key={index} className="gallery-item">
+          <img
+            src={image.src}
+            alt={image.alt}
+            className="gallery-image"
+            loading="lazy"
+            onClick={() => openLightbox(image.src)}
+          />
+        </div>
+      ))}
+      {lightboxImage && (
         <Lightbox imageSrc={lightboxImage} onClose={closeLightbox} />
       )}
-      </div>
     </div>
   );
 };

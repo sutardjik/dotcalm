@@ -94,13 +94,7 @@ a:visited{
     justify-content: center;
     align-items: flex-start;
 }
-  
-.img-display .gallery-row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-  
+
 .img-display .gallery-item {
     margin: 25px;
 }
