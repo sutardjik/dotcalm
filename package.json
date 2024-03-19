@@ -23,9 +23,10 @@
   },
   "devDependencies": {
     "@babel/traverse": "^7.23.2",
-    "axios": "^1.6.2",
+    "axios": "^0.28.0",
     "decode-uri-component": "^0.2.2",
-    "follow-redirects": "^1.15.5",
+    "es5-ext": "^0.10.64",
+    "follow-redirects": "^1.15.6",
     "graphql": "^16.8.1",
     "http-cache-semantics": "^4.1.1",
     "json5": "^1.0.2",
