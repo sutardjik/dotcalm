@@ -13,9 +13,6 @@ Internet gems that are not mine are accredited to [Six N. Five](https://sixnfive
 git clone https://github.com/sutardjik/dotcalm.git
 cd dotcalm
 
-# install dependencies
-npm install
-
 # start development server
 npm run develop
 
