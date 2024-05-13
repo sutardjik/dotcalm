@@ -5,11 +5,9 @@ import orchid from "../../img/orchid.png";
 import asocietyoffgod from "../../img/asocietyoffgod.png";
 import sculpturegarden from "../../img/sculpturegarden.png";
 import isseymiyake from "../../img/isseymiyake.png";
-import offwhite from "../../img/offwhite.png";
 import sliveroftime from "../../img/sliveroftime.png";
-import loewe from "../../img/loewe.png";
-import universe from "../../img/universe.png";
 import annakiki from "../../img/annakiki.png";
+import universe from "../../img/universe.png";
 import electricguitar from "../../img/electricguitar.png";
 import cinematapes from "../../img/cinematapes.png";
 import blackhorse from "../../img/blackhorse.png";
@@ -17,7 +15,6 @@ import elephants from "../../img/elephants.png";
 import sun from "../../img/sun.png";
 import bar from "../../img/bar.png";
 import ohnodarling from "../../img/ohnodarling.png";
-import maisonmargiela from "../../img/maisonmargiela.png";
 import yayoikusama from "../../img/yayoikusama.png";
 import hunjuice from "../../img/hunjuice.png";
 import folktalespirits from "../../img/folktalespirits.png";
@@ -54,11 +51,9 @@ const Gallery = () => {
     { src: asocietyoffgod, alt: "" },
     { src: sculpturegarden, alt: "" },
     { src: isseymiyake, alt: "" },
-    { src: offwhite, alt: "" },
     { src: sliveroftime, alt: "" },
-    { src: loewe, alt: "" },
-    { src: universe, alt: "" },
     { src: annakiki, alt: "" },
+    { src: universe, alt: "" },
     { src: electricguitar, alt: "" },
     { src: cinematapes, alt: "" },
     { src: blackhorse, alt: "" },
@@ -66,7 +61,6 @@ const Gallery = () => {
     { src: sun, alt: "" },
     { src: bar, alt: "" },
     { src: ohnodarling, alt: "" },
-    { src: maisonmargiela, alt: "" },
     { src: yayoikusama, alt: "" },
     { src: hunjuice, alt: "" },
     { src: folktalespirits, alt: "" },
