@@ -4,7 +4,7 @@
 
 ## Acknowledgments
 
-Internet gems that are not mine are accredited to [Six N. Five](https://sixnfive.com/), [Pangram Pangram Foundry](https://pangrampangram.com/), [BÜRO UFHO](https://www.ufho.com/), [Paul Milinski](https://milinski.co/), and other unknown dreamscape architecture artists.
+Internet gems that are not mine are accredited to [Six N. Five](https://sixnfive.com/), [BÜRO UFHO](https://www.ufho.com/), [Paul Milinski](https://milinski.co/), and other unknown dreamscape architecture artists.
 
 ## Development
 
