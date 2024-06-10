@@ -3,18 +3,18 @@
  */
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://dotcalm.pages.dev`, 
+    siteUrl: `https://dotcalm.pages.dev`,
   },
   plugins: [
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://dotcalm.pages.dev', 
-        sitemap: 'https://dotcalm.pages.dev/sitemap/sitemap-index.xml', 
+        host: 'https://dotcalm.pages.dev',
+        sitemap: 'https://dotcalm.pages.dev/sitemap/sitemap-index.xml',
         policy: [
           { userAgent: '*', disallow: '/' },
           { userAgent: '*', disallow: '/static/' },
-          { userAgent: '*', disallow: '/src/img/' },
+          { userAgent: '*', disallow: '/src/' },
         ],
       },
     },

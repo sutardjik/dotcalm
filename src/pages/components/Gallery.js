@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import Lightbox from './Lightbox';
 
+import maze from "../../img/maze.png";
+import claw from "../../img/claw.png"
+import forest from "../../img/forest.png";
+import flowers from "../../img/flowers.png";
 import orchid from "../../img/orchid.png";
 import asocietyoffgod from "../../img/asocietyoffgod.png";
 import sculpturegarden from "../../img/sculpturegarden.png";
@@ -47,6 +51,10 @@ const Gallery = () => {
   };
 
   const images = [
+    { src: maze, alt: "" },
+    { src: claw, alt: "" },
+    { src: forest, alt: "" },
+    { src: flowers, alt: "" },
     { src: orchid, alt: "" },
     { src: asocietyoffgod, alt: "" },
     { src: sculpturegarden, alt: "" },
