@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Lightbox from './Lightbox';
 
+import holoscandi from "../../img/holoscandi.png"
+import ape from "../../img/ape.png"
 import maze from "../../img/maze.png";
 import claw from "../../img/claw.png"
 import forest from "../../img/forest.png";
@@ -27,11 +29,11 @@ import ramune from "../../img/ramune.png";
 import cd from "../../img/cd.png";
 import takashimurakami from "../../img/takashimurakami.png";
 import zeus from "../../img/zeus.png";
-import dine from "../../img/dine.png";
 import outfits from "../../img/outfits.png";
-import art from "../../img/art.png";
+import dine from "../../img/dine.png";
 import potions from "../../img/potions.png";
 import streetwear from "../../img/streetwear.png";
+import art from "../../img/art.png";
 import gentlemonster from "../../img/gentlemonster.png";
 import airplane from "../../img/airplane.png";
 import mountain from "../../img/mountain.png";
@@ -51,6 +53,8 @@ const Gallery = () => {
   };
 
   const images = [
+    { src: holoscandi, alt: "" },
+    { src: ape, alt: "" },
     { src: maze, alt: "" },
     { src: claw, alt: "" },
     { src: forest, alt: "" },
@@ -77,8 +81,8 @@ const Gallery = () => {
     { src: cd, alt: "" },
     { src: takashimurakami, alt: "" },
     { src: zeus, alt: "" },
-    { src: dine, alt: "" },
     { src: outfits, alt: "" },
+    { src: dine, alt: "" },
     { src: potions, alt: "" },
     { src: streetwear, alt: "" },
     { src: art, alt: "" },

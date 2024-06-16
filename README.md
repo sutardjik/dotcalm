@@ -4,7 +4,9 @@
 
 ## Acknowledgments
 
-Internet gems that are not mine are accredited to [Six N. Five](https://sixnfive.com/), [BÜRO UFHO](https://www.ufho.com/), [Paul Milinski](https://milinski.co/), and other unknown dreamscape architecture artists.
+Internet gems that are not mine are accredited to [Six N. Five](https://sixnfive.com/), [BÜRO UFHO](https://www.ufho.com/), [Paul Milinski](https://milinski.co/), [Mary Lennox](http://marylennox.de/), [Benoit Challand](https://www.magnane.com/), and other unknown dreamscape architecture artists.
+
+Assets for digital art posters couldn't have been possible without [Kee Yen Yeo](https://keeyen.com/), [Flora Guo](https://bento.me/floguo/), and [Sarah Kinsley](https://sarahkinsley.komi.io/).
 
 ## Development
 
