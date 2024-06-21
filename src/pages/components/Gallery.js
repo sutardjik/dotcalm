@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Lightbox from './Lightbox';
 
+import bunnies from "../../img/bunnies.png"
+import bags from "../../img/bags.png"
 import holoscandi from "../../img/holoscandi.png"
 import ape from "../../img/ape.png"
 import maze from "../../img/maze.png";
@@ -53,6 +55,8 @@ const Gallery = () => {
   };
 
   const images = [
+    { src: bunnies, alt: "" },
+    { src: bags, alt: "" },
     { src: holoscandi, alt: "" },
     { src: ape, alt: "" },
     { src: maze, alt: "" },
