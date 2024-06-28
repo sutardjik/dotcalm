@@ -4,9 +4,9 @@
 
 ## Acknowledgments
 
-Internet gems that are not mine are accredited to [Six N. Five](https://sixnfive.com/), [BÜRO UFHO](https://www.ufho.com/), [Paul Milinski](https://milinski.co/), [Mary Lennox](http://marylennox.de/), [Benoit Challand](https://www.magnane.com/), and other unknown dreamscape architecture artists.
+Internet gems that are not mine are accredited to [Six N. Five](https://sixnfive.com/), [BÜRO UFHO](https://www.ufho.com/), [Paul Milinski](https://milinski.co/), [Mary Lennox](http://marylennox.de/), and other unknown dreamscape architecture artists.
 
-Assets for digital art posters couldn't have been possible without [Kee Yen Yeo](https://keeyen.com/), [Flora Guo](https://bento.me/floguo/), [Yuliia S.](https://dribbble.com/zluchkayaaa/), [Sarah Kinsley](https://sarahkinsley.komi.io/), [Pangram Pangram Foundry](https://pangrampangram.com/), [Nicky Laatz](https://nickylaatz.com/), and [Hard Type Foundry](https://hardtype.xyz/).
+Assets for digital art posters couldn't have been possible without [Kee Yen Yeo](https://keeyen.com/), [Yuliia S.](https://dribbble.com/zluchkayaaa/), [Sarah Kinsley](https://sarahkinsley.komi.io/), [Pangram Pangram Foundry](https://pangrampangram.com/), and [Hard Type Foundry](https://hardtype.xyz/).
 
 ## Development
 
