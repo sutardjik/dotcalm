@@ -7,8 +7,6 @@ import bags from "../../img/bags.png"
 import maze from "../../img/maze.png";
 import flowers from "../../img/flowers.png";
 import orchid from "../../img/orchid.png";
-import asocietyoffgod from "../../img/asocietyoffgod.png";
-import isseymiyake from "../../img/isseymiyake.png";
 import annakiki from "../../img/annakiki.png";
 import cinematapes from "../../img/cinematapes.png";
 import blackhorse from "../../img/blackhorse.png";
@@ -20,8 +18,6 @@ import folktalespirits from "../../img/folktalespirits.png";
 import sydney from "../../img/sydney.png";
 import takashimurakami from "../../img/takashimurakami.png";
 import zeus from "../../img/zeus.png";
-import outfits from "../../img/outfits.png";
-import dine from "../../img/dine.png";
 import gentlemonster from "../../img/gentlemonster.png";
 import art from "../../img/art.png";
 import park from "../../img/park.png";
@@ -47,8 +43,6 @@ const Gallery = () => {
     { src: maze, alt: "" },
     { src: flowers, alt: "" },
     { src: orchid, alt: "" },
-    { src: asocietyoffgod, alt: "" },
-    { src: isseymiyake, alt: "" },
     { src: annakiki, alt: "" },
     { src: cinematapes, alt: "" },
     { src: blackhorse, alt: "" },
@@ -60,8 +54,6 @@ const Gallery = () => {
     { src: sydney, alt: "" },
     { src: takashimurakami, alt: "" },
     { src: zeus, alt: "" },
-    { src: outfits, alt: "" },
-    { src: dine, alt: "" },
     { src: gentlemonster, alt: "" },
     { src: art, alt: "" },
     { src: park, alt: "" },
