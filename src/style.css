@@ -1,3 +1,4 @@
+/* todo: fix lightbox image dimensions for smaller screens (ex. 1263 x 585) */
 @font-face {
     font-family: EOR;
     src: url(../src/fonts/PPEditorialOld-Regular.otf);
@@ -146,29 +147,41 @@ a:visited{
     
     .lightbox img {
         max-width: 85%;
+        max-height: 80vh;
     }
 }
 
 @media screen and (min-width: 401px) and (max-width: 550px){
     .lightbox img {
         max-width: 80%;
+        max-height: 90vh;
     }
 }
 
 @media screen and (min-width: 550px) and (max-width: 650px){
     .lightbox img {
         max-width: 70%;
+        max-height: 100vh;
     }
 }
 
 @media screen and (min-width: 651px) and (max-width: 700px){
     .lightbox img {
         max-width: 70%;
+        max-height: 100vh;
     }
 }
 
-@media screen and (min-width: 950px) and (max-width: 1440px){ 
+@media screen and (min-width: 701px) and (max-width: 950px){
     .lightbox img {
-        max-width: 45%;
+        max-width: 90%;
+        max-height: 90vh;
+    }
+}
+
+@media screen and (min-width: 951px) and (max-width: 1440px){ 
+    .lightbox img {
+        max-width: 70%;
+        max-height: 120vh;
     }
 }
