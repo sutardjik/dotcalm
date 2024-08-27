@@ -9,7 +9,6 @@ import flowers from "../../img/flowers.png";
 import orchid from "../../img/orchid.png";
 import annakiki from "../../img/annakiki.png";
 import cinematapes from "../../img/cinematapes.png";
-import blackhorse from "../../img/blackhorse.png";
 import elephants from "../../img/elephants.png";
 import sun from "../../img/sun.png";
 import yayoikusama from "../../img/yayoikusama.png";
@@ -45,7 +44,6 @@ const Gallery = () => {
     { src: orchid, alt: "" },
     { src: annakiki, alt: "" },
     { src: cinematapes, alt: "" },
-    { src: blackhorse, alt: "" },
     { src: elephants, alt: "" },
     { src: sun, alt: "" },
     { src: yayoikusama, alt: "" },
