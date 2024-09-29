@@ -17,7 +17,7 @@ const IndexPage = () => {
         <h1>.calm</h1>
         <h2>
           the left + right brain organized chaos<br />of&nbsp;
-          <a href="https://sutardjik.github.io/" target="_self" style={{ color: '#393D10 !important' }}
+          <a href="https://sutardjik.github.io/" target="_self" style={{ color: 'var(--text) !important' }}
             >&#x6b;&#x61;&#x72;&#x65;&#x6e;
             &#x73;&#x75;&#x74;&#x61;&#x72;&#x64;&#x6a;&#x69;</a>
         </h2>
