@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Lightbox from './Lightbox';
 
+import necklace from "../../img/necklace.png"
 import fourseasons from "../../img/fourseasons.png"
 import bunnies from "../../img/bunnies.png"
 import bags from "../../img/bags.png"
@@ -36,6 +37,7 @@ const Gallery = () => {
   };
 
   const images = [
+    { src: necklace, alt: "" },
     { src: fourseasons, alt: "" },
     { src: bunnies, alt: "" },
     { src: bags, alt: "" },
