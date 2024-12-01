@@ -24,7 +24,7 @@ import xenia from "../../img/xenia.png";
 import art from "../../img/art.png";
 import park from "../../img/park.png";
 import mountain from "../../img/mountain.png";
-import classical from "../../img/classical.png";
+import flamenco from "../../img/flamenco.png";
 import aerialtram from "../../img/aerialtram.png";
 
 const Gallery = () => {
@@ -62,7 +62,7 @@ const Gallery = () => {
     { src: art, alt: "" },
     { src: park, alt: "" },
     { src: mountain, alt: "" },
-    { src: classical, alt: "" },
+    { src: flamenco, alt: "" },
     { src: aerialtram, alt: "" }
   ];
 
