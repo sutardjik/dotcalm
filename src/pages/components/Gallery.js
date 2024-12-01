@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Lightbox from './Lightbox';
 
-import holoscandi from "../../img/holoscandi.png"
+import dine from "../../img/dine.png"
 import bicycle from "../../img/bicycle.png"
 import necklace from "../../img/necklace.png"
 import fourseasons from "../../img/fourseasons.png"
@@ -39,7 +39,7 @@ const Gallery = () => {
   };
 
   const images = [
-    { src: holoscandi, alt: "" },
+    { src: dine, alt: "" },
     { src: bicycle, alt: "" },
     { src: necklace, alt: "" },
     { src: fourseasons, alt: "" },
