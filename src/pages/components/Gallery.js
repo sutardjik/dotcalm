@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import Lightbox from './Lightbox';
 
+import holoscandi from "../../img/holoscandi.png"
+import bicycle from "../../img/bicycle.png"
 import necklace from "../../img/necklace.png"
 import fourseasons from "../../img/fourseasons.png"
 import bunnies from "../../img/bunnies.png"
 import bags from "../../img/bags.png"
 import maze from "../../img/maze.png";
-import flowers from "../../img/flowers.png";
+import spiral from "../../img/spiral.png";
 import orchid from "../../img/orchid.png";
 import annakiki from "../../img/annakiki.png";
 import cinematapes from "../../img/cinematapes.png";
@@ -18,7 +20,7 @@ import folktalespirits from "../../img/folktalespirits.png";
 import sydney from "../../img/sydney.png";
 import takashimurakami from "../../img/takashimurakami.png";
 import zeus from "../../img/zeus.png";
-import gentlemonster from "../../img/gentlemonster.png";
+import xenia from "../../img/xenia.png";
 import art from "../../img/art.png";
 import park from "../../img/park.png";
 import mountain from "../../img/mountain.png";
@@ -37,12 +39,14 @@ const Gallery = () => {
   };
 
   const images = [
+    { src: holoscandi, alt: "" },
+    { src: bicycle, alt: "" },
     { src: necklace, alt: "" },
     { src: fourseasons, alt: "" },
     { src: bunnies, alt: "" },
     { src: bags, alt: "" },
     { src: maze, alt: "" },
-    { src: flowers, alt: "" },
+    { src: spiral, alt: "" },
     { src: orchid, alt: "" },
     { src: annakiki, alt: "" },
     { src: cinematapes, alt: "" },
@@ -54,7 +58,7 @@ const Gallery = () => {
     { src: sydney, alt: "" },
     { src: takashimurakami, alt: "" },
     { src: zeus, alt: "" },
-    { src: gentlemonster, alt: "" },
+    { src: xenia, alt: "" },
     { src: art, alt: "" },
     { src: park, alt: "" },
     { src: mountain, alt: "" },
