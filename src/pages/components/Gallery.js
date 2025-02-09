@@ -10,7 +10,7 @@ import fourseasons from "../../img/fourseasons.png"
 import bunnies from "../../img/bunnies.png"
 import bags from "../../img/bags.png"
 import maze from "../../img/maze.png";
-import spiral from "../../img/spiral.png";
+import bottegaveneta from "../../img/bottegaveneta.png";
 import orchid from "../../img/orchid.png";
 import annakiki from "../../img/annakiki.png";
 import cinematapes from "../../img/cinematapes.png";
@@ -50,7 +50,7 @@ const Gallery = () => {
     { src: bunnies, alt: "" },
     { src: bags, alt: "" },
     { src: maze, alt: "" },
-    { src: spiral, alt: "" },
+    { src: bottegaveneta, alt: "" },
     { src: orchid, alt: "" },
     { src: annakiki, alt: "" },
     { src: cinematapes, alt: "" },
