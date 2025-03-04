@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Lightbox from './Lightbox';
 
+import acnestudios from "../../img/acnestudios.png"
+import miumiu from "../../img/miumiu.png"
 import macintosh from "../../img/macintosh.png"
 import gentlemonster from "../../img/gentlemonster.png"
 import dine from "../../img/dine.png"
@@ -41,6 +43,8 @@ const Gallery = () => {
   };
 
   const images = [
+    { src: acnestudios, alt: "" },
+    { src: miumiu, alt: "" },
     { src: macintosh, alt: "" },
     { src: gentlemonster, alt: "" },
     { src: dine, alt: "" },
