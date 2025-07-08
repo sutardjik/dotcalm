@@ -1,33 +1,25 @@
 import React, { useState } from "react";
 import Lightbox from './Lightbox';
 
-import eadem from "../../img/eadem.png"
-import akris from "../../img/akris.png"
-import acnestudios from "../../img/acnestudios.png"
-import miumiu from "../../img/miumiu.png"
-import macintosh from "../../img/macintosh.png"
-import gentlemonster from "../../img/gentlemonster.png"
-import dine from "../../img/dine.png"
-import outfits from "../../img/outfits.png"
-import necklace from "../../img/necklace.png"
-import fourseasons from "../../img/fourseasons.png"
-import bunnies from "../../img/bunnies.png"
-import bags from "../../img/bags.png"
-import maze from "../../img/maze.png";
-import bottegaveneta from "../../img/bottegaveneta.png";
-import orchid from "../../img/orchid.png";
-import annakiki from "../../img/annakiki.png";
-import cinematapes from "../../img/cinematapes.png";
-import elephants from "../../img/elephants.png";
-import sun from "../../img/sun.png";
+import acnestudios from "../../img/acnestudios.png";
 import yayoikusama from "../../img/yayoikusama.png";
+import macintosh from "../../img/macintosh.png";
+import gentlemonster from "../../img/gentlemonster.png";
+import dine from "../../img/dine.png";
+import outfits from "../../img/outfits.png";
+import necklace from "../../img/necklace.png";
+import fourseasons from "../../img/fourseasons.png";
+import bunnies from "../../img/bunnies.png";
+import bags from "../../img/bags.png";
+import maze from "../../img/maze.png";
+import elephants from "../../img/elephants.png";
+import eadem from "../../img/eadem.png";
 import hunjuice from "../../img/hunjuice.png";
+import orchid from "../../img/orchid.png";
 import folktalespirits from "../../img/folktalespirits.png";
 import sydney from "../../img/sydney.png";
 import takashimurakami from "../../img/takashimurakami.png";
 import zeus from "../../img/zeus.png";
-import xenia from "../../img/xenia.png";
-import art from "../../img/art.png";
 import park from "../../img/park.png";
 import mountain from "../../img/mountain.png";
 import flamenco from "../../img/flamenco.png";
@@ -45,10 +37,8 @@ const Gallery = () => {
   };
 
   const images = [
-    { src: eadem, alt: "" },
-    { src: akris, alt: "" },
     { src: acnestudios, alt: "" },
-    { src: miumiu, alt: "" },
+    { src: yayoikusama, alt: "" },
     { src: macintosh, alt: "" },
     { src: gentlemonster, alt: "" },
     { src: dine, alt: "" },
@@ -58,20 +48,14 @@ const Gallery = () => {
     { src: bunnies, alt: "" },
     { src: bags, alt: "" },
     { src: maze, alt: "" },
-    { src: bottegaveneta, alt: "" },
-    { src: orchid, alt: "" },
-    { src: annakiki, alt: "" },
-    { src: cinematapes, alt: "" },
     { src: elephants, alt: "" },
-    { src: sun, alt: "" },
-    { src: yayoikusama, alt: "" },
+    { src: eadem, alt: "" },
     { src: hunjuice, alt: "" },
+    { src: orchid, alt: "" },
     { src: folktalespirits, alt: "" },
     { src: sydney, alt: "" },
     { src: takashimurakami, alt: "" },
     { src: zeus, alt: "" },
-    { src: xenia, alt: "" },
-    { src: art, alt: "" },
     { src: park, alt: "" },
     { src: mountain, alt: "" },
     { src: flamenco, alt: "" },
