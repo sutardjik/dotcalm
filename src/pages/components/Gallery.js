@@ -12,11 +12,9 @@ import fourseasons from "../../img/fourseasons.png";
 import bunnies from "../../img/bunnies.png";
 import bags from "../../img/bags.png";
 import maze from "../../img/maze.png";
-import elephants from "../../img/elephants.png";
-import eadem from "../../img/eadem.png";
 import hunjuice from "../../img/hunjuice.png";
-import orchid from "../../img/orchid.png";
-import folktalespirits from "../../img/folktalespirits.png";
+import eadem from "../../img/eadem.png";
+import elephants from "../../img/elephants.png";
 import sydney from "../../img/sydney.png";
 import takashimurakami from "../../img/takashimurakami.png";
 import zeus from "../../img/zeus.png";
@@ -48,11 +46,9 @@ const Gallery = () => {
     { src: bunnies, alt: "" },
     { src: bags, alt: "" },
     { src: maze, alt: "" },
-    { src: elephants, alt: "" },
-    { src: eadem, alt: "" },
     { src: hunjuice, alt: "" },
-    { src: orchid, alt: "" },
-    { src: folktalespirits, alt: "" },
+    { src: eadem, alt: "" },
+    { src: elephants, alt: "" },
     { src: sydney, alt: "" },
     { src: takashimurakami, alt: "" },
     { src: zeus, alt: "" },
