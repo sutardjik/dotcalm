@@ -140,7 +140,7 @@ a:visited {
 }
   
 @media screen and (max-width: 400px) {
-    .img-display .gallery-image{
+    .img-display .gallery-image {
         width: 250px;
     }
     
