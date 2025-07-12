@@ -22,8 +22,8 @@ const IndexPage = () => {
             &#x73;&#x75;&#x74;&#x61;&#x72;&#x64;&#x6a;&#x69;</a>
         </h2>
         <br />
-        <h3 style={{marginBottom: "30px"}}>gallery</h3>
-        <div className="img-display" style={{marginBottom: "50px"}}>
+        <h3 style={{ marginBottom: '30px' }}>gallery</h3>
+        <div className="img-display" style={{ marginBottom: '70px' }}>
           <Gallery/>
         </div>
       </div>
