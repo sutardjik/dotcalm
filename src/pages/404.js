@@ -14,10 +14,7 @@ const NotFoundPage = () => {
           loading="lazy" alt=""
         />
           <h1>oops!</h1>
-          <h2>it seems you’ve taken a wrong turn.<br/>the page you’re looking for has wandered off somewhere.</h2>
-          <br/>
-          <br/>
-          <br/>
+          <h2 style={{marginBottom: "50px"}}>it seems you’ve taken a wrong turn.<br/>the page you’re looking for has wandered off somewhere.</h2>
         </div>
       </div>
     </main>

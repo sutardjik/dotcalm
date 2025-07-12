@@ -22,14 +22,10 @@ const IndexPage = () => {
             &#x73;&#x75;&#x74;&#x61;&#x72;&#x64;&#x6a;&#x69;</a>
         </h2>
         <br />
-        <h3>gallery</h3>
-        <br />
-        <div className="img-display">
+        <h3 style={{marginBottom: "30px"}}>gallery</h3>
+        <div className="img-display" style={{marginBottom: "50px"}}>
           <Gallery/>
         </div>
-        <br/>
-        <br/>
-        <br/>
       </div>
     </div>
   </main>
