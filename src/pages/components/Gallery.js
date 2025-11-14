@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Lightbox from './Lightbox';
 
+import saltstonexaritzia from "../../img/saltstonexaritzia.png";
 import acnestudios from "../../img/acnestudios.png";
 import yayoikusama from "../../img/yayoikusama.png";
 import macintosh from "../../img/macintosh.png";
@@ -35,6 +36,7 @@ const Gallery = () => {
   };
 
   const images = [
+    { src: saltstonexaritzia, alt: "" },
     { src: acnestudios, alt: "" },
     { src: yayoikusama, alt: "" },
     { src: macintosh, alt: "" },
