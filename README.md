@@ -2,7 +2,7 @@
 
 _What happens if the internet stops trying to capture attention and instead becomes a place for deliberate perception? What would the internet look like if it prioritized personal perception instead of engagement metrics?_
 
-.calm, pronounced "dot calm," is a personal visual archive built with the Gatsby framework as an evolving map of aesthetic interests across photography, architecture, digital culture, and design. Inspired by the visual styles of VSCO and Pinterest, it embraces the principles of the slow web to counter the toxicity of mainstream social media platforms. Images can be explored by clicking on any of them to view in more detail.
+.calm, pronounced "dot calm," is a personal visual archive built with Gatsby that slowly maps evolving aesthetic interests across photography, architecture, digital culture, and design. This site serves as a quiet digital space where curation, taste, and philosphical reflection exist outside trends, algorithms, and commercial constraints. Inspired by the visual styles of VSCO and Pinterest, it embraces slow web principles to counter the toxicity of mainstream social media. Images can be explored by clicking on any of them to view in more detail.
 
 ## Acknowledgments
 
