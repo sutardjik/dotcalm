@@ -3,9 +3,7 @@ import Lightbox from './Lightbox';
 
 import alaia from "../../img/alaia.png";
 import bloom from "../../img/bloom.png";
-import saltstonexaritzia from "../../img/saltstonexaritzia.png";
 import acnestudios from "../../img/acnestudios.png";
-import outfits from "../../img/outfits.png";
 import necklace from "../../img/necklace.png";
 import fourseasons from "../../img/fourseasons.png";
 import bunnies from "../../img/bunnies.png";
@@ -34,9 +32,7 @@ const Gallery = () => {
   const images = [
     { src: alaia, alt: "" },
     { src: bloom, alt: "" },
-    { src: saltstonexaritzia, alt: "" },
     { src: acnestudios, alt: "" },
-    { src: outfits, alt: "" },
     { src: necklace, alt: "" },
     { src: fourseasons, alt: "" },
     { src: bunnies, alt: "" },
