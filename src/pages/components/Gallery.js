@@ -9,8 +9,6 @@ import fourseasons from "../../img/fourseasons.png";
 import bunnies from "../../img/bunnies.png";
 import bags from "../../img/bags.png";
 import macintosh from "../../img/macintosh.png";
-import elephants from "../../img/elephants.png";
-import sydney from "../../img/sydney.png";
 import takashimurakami from "../../img/takashimurakami.png";
 import dine from "../../img/dine.png";
 import park from "../../img/park.png";
@@ -38,8 +36,6 @@ const Gallery = () => {
     { src: bunnies, alt: "" },
     { src: bags, alt: "" },
     { src: macintosh, alt: "" },
-    { src: elephants, alt: "" },
-    { src: sydney, alt: "" },
     { src: takashimurakami, alt: "" },
     { src: dine, alt: "" },
     { src: park, alt: "" },
