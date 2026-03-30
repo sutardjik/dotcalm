@@ -7,14 +7,14 @@ const NotFoundPage = () => {
     <main>
       <div className="content">
         <div className="content-container">
-        <img
-          src={icon} data-src={icon}
-          width="100"
-          height="100"
-          loading="lazy" alt=""
-        />
+          <img
+            src={icon} data-src={icon}
+            width="100"
+            height="100"
+            loading="lazy" alt=""
+          />
           <h1>oops!</h1>
-          <h2 style={{ marginBottom: '70px' }}>it seems you’ve taken a wrong turn.<br/>the page you’re looking for has wandered off somewhere.</h2>
+          <h2 style={{ marginBottom: '70px' }}>it looks like you’ve taken a wrong turn.<br/>the page you’re looking for has wandered off somewhere.</h2>
         </div>
       </div>
     </main>
