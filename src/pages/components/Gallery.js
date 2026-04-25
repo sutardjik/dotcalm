@@ -3,13 +3,15 @@ import Lightbox from './Lightbox';
 
 import alaia from "../../img/alaia.png";
 import bloom from "../../img/bloom.png";
+import studiotwentyseven from "../../img/studiotwentyseven.png";
 import acnestudios from "../../img/acnestudios.png";
+import mirror from "../../img/mirror.png";
 import necklace from "../../img/necklace.png";
 import fourseasons from "../../img/fourseasons.png";
 import bunnies from "../../img/bunnies.png";
-import bags from "../../img/bags.png";
+import bottegaveneta from "../../img/bottegaveneta.png";
 import macintosh from "../../img/macintosh.png";
-import takashimurakami from "../../img/takashimurakami.png";
+import bags from "../../img/bags.png";
 import dine from "../../img/dine.png";
 import park from "../../img/park.png";
 import mountain from "../../img/mountain.png";
@@ -30,13 +32,15 @@ const Gallery = () => {
   const images = [
     { src: alaia, alt: "" },
     { src: bloom, alt: "" },
+    { src: studiotwentyseven, alt: "" },
     { src: acnestudios, alt: "" },
+    { src: mirror, alt: "" },
     { src: necklace, alt: "" },
     { src: fourseasons, alt: "" },
     { src: bunnies, alt: "" },
-    { src: bags, alt: "" },
+    { src: bottegaveneta, alt: "" },
     { src: macintosh, alt: "" },
-    { src: takashimurakami, alt: "" },
+    { src: bags, alt: "" },
     { src: dine, alt: "" },
     { src: park, alt: "" },
     { src: mountain, alt: "" },

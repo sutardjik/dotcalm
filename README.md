@@ -8,7 +8,7 @@ Over time, .calm has grown beyond a simple gallery. Its deliberate curation, ite
 
 ## Acknowledgments
 
-Internet-sourced works not my own are credited to [Six N. Five](https://sixnfive.com/), [BÜRO UFHO](https://www.ufho.com/), [Paul Milinski](https://milinski.co/), [Nicole Miller-Wong](https://nicolemillerwong.com/), [Acne Studios](https://www.acnestudios.com/), [Twisha Patni](https://www.twishapatni.com/), [ALAÏA](https://www.maison-alaia.com/en-us/), and [Halleroed](https://halleroed.com/).
+Internet-sourced works not my own are credited to [Paul Milinski](https://milinski.co/), [BÜRO UFHO](https://www.ufho.com/), [Six N. Five](https://sixnfive.com/), [Bottega Veneta](https://www.bottegaveneta.com/en-us), [Nicole Miller-Wong](https://nicolemillerwong.com/), [Completedworks](https://us.completedworks.com/), [Acne Studios](https://www.acnestudios.com/), [STUDIOTWENTYSEVEN](https://studiotwentyseven.com/), [Twisha Patni](https://www.twishapatni.com/), and [Halleroed](https://halleroed.com/).
 
 Assets for digital art posters wouldn't have been possible without [Apple](https://www.apple.com/), [Kee Yen Yeo](https://keeyen.com/), [Jerry-Lee Bosmans](https://www.byjer.com/), and [Yuliia S.](https://dribbble.com/zluchkayaaa/).
 
