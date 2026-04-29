@@ -13,10 +13,6 @@ import adererror from "../../img/adererror.png";
 import macintosh from "../../img/macintosh.png";
 import bags from "../../img/bags.png";
 import chair from "../../img/chair.png";
-import park from "../../img/park.png";
-import mountain from "../../img/mountain.png";
-import flamenco from "../../img/flamenco.png";
-import aerialtram from "../../img/aerialtram.png";
 
 const Gallery = () => {
   const [lightboxImage, setLightboxImage] = useState(null);
@@ -42,10 +38,6 @@ const Gallery = () => {
     { src: macintosh, alt: "" },
     { src: bags, alt: "" },
     { src: chair, alt: "" },
-    { src: park, alt: "" },
-    { src: mountain, alt: "" },
-    { src: flamenco, alt: "" },
-    { src: aerialtram, alt: "" }
   ];
 
   return (
