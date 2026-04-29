@@ -7,12 +7,12 @@ import studiotwentyseven from "../../img/studiotwentyseven.png";
 import acnestudios from "../../img/acnestudios.png";
 import mirror from "../../img/mirror.png";
 import necklace from "../../img/necklace.png";
-import fourseasons from "../../img/fourseasons.png";
-import bunnies from "../../img/bunnies.png";
 import bottegaveneta from "../../img/bottegaveneta.png";
+import bunnies from "../../img/bunnies.png";
+import adererror from "../../img/adererror.png";
 import macintosh from "../../img/macintosh.png";
 import bags from "../../img/bags.png";
-import dine from "../../img/dine.png";
+import chair from "../../img/chair.png";
 import park from "../../img/park.png";
 import mountain from "../../img/mountain.png";
 import flamenco from "../../img/flamenco.png";
@@ -36,12 +36,12 @@ const Gallery = () => {
     { src: acnestudios, alt: "" },
     { src: mirror, alt: "" },
     { src: necklace, alt: "" },
-    { src: fourseasons, alt: "" },
-    { src: bunnies, alt: "" },
     { src: bottegaveneta, alt: "" },
+    { src: bunnies, alt: "" },
+    { src: adererror, alt: "" },
     { src: macintosh, alt: "" },
     { src: bags, alt: "" },
-    { src: dine, alt: "" },
+    { src: chair, alt: "" },
     { src: park, alt: "" },
     { src: mountain, alt: "" },
     { src: flamenco, alt: "" },
