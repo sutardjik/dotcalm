@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Lightbox from './Lightbox';
 
-import alaia from "../../img/alaia.png";
 import bloom from "../../img/bloom.png";
 import studiotwentyseven from "../../img/studiotwentyseven.png";
 import acnestudios from "../../img/acnestudios.png";
@@ -12,7 +11,6 @@ import bunnies from "../../img/bunnies.png";
 import adererror from "../../img/adererror.png";
 import macintosh from "../../img/macintosh.png";
 import bags from "../../img/bags.png";
-import chair from "../../img/chair.png";
 
 const Gallery = () => {
   const [lightboxImage, setLightboxImage] = useState(null);
@@ -26,7 +24,6 @@ const Gallery = () => {
   };
 
   const images = [
-    { src: alaia, alt: "" },
     { src: bloom, alt: "" },
     { src: studiotwentyseven, alt: "" },
     { src: acnestudios, alt: "" },
@@ -36,8 +33,7 @@ const Gallery = () => {
     { src: bunnies, alt: "" },
     { src: adererror, alt: "" },
     { src: macintosh, alt: "" },
-    { src: bags, alt: "" },
-    { src: chair, alt: "" },
+    { src: bags, alt: "" }
   ];
 
   return (
