@@ -1,20 +1,20 @@
 @font-face {
     font-family: EOR;
-    src: url(../src/fonts/PPEditorialOld-Regular.otf);
+    src: url(/fonts/PPEditorialOld-Regular.otf);
 }
 
 @font-face {
     font-family: EOU;
-    src: url(../src/fonts/PPEditorialOld-Ultralight.otf);
+    src: url(/fonts/PPEditorialOld-Ultralight.otf);
 }
 
 @font-face {
     font-family: NMM;
-    src: url(../src/fonts/PPNeueMontrealMono-Book.otf);
+    src: url(/fonts/PPNeueMontrealMono-Book.otf);
 }
 
 * {
-    text-decoration: none;
+    box-sizing: border-box;
 }
 
 html, 
@@ -35,7 +35,12 @@ body {
     --white: #FFFFFF;
     --lightbox: rgba(0, 0, 0, 0.9);
     --close: rgba(240, 240, 240, 0.7);
+    --font-regular: EOR;
+    --font-light: EOU;
+    --font-monospace: NMM;
     --fw: 100;
+    --space-md: 30px;
+    --space-lg: 70px;
 }
 
 ::selection {
@@ -44,40 +49,39 @@ body {
 }
 
 h1 {
-    font-family: EOR;
+    color: var(--text);
+    font-family: var(--font-regular);
     font-weight: var(--fw);
     font-size: 40px;
-    color: var(--text);
 }
 
 h2 {
-    font-family: EOU;
+    color: var(--text);
+    font-family: var(--font-light);
     font-weight: var(--fw);
     font-size: 30px;
-    color: var(--text) !important;
 }
 
 h3 {
-    font-family: NMM;
+    color: var(--text);
+    font-family: var(--font-monospace);
     font-weight: var(--fw);
     font-size: 20px;
-    color: var(--text);
 }
 
-a {
+.mb-md { margin-bottom: var(--space-md); }
+.mb-lg { margin-bottom: var(--space-lg); }
+
+.heading-link {
+    color: var(--text);
     text-decoration: none;
     border-bottom: 1px dashed;
-    color: var(--text) !important;
 }
 
-a:hover {
+.heading-link:hover {
     text-decoration: none;
-    border-bottom: 0px;
+    border-bottom: 0;
     cursor: ne-resize;
-}
-
-a:visited {
-    color: var(--text) !important;
 }
 
 .content {
