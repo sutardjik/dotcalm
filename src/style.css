@@ -24,23 +24,43 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background: var(--bg);
+    background: var(--background);
     cursor: default;
 }
 
 :root {
-    --bg: #F9FAEE;
+    --background: #F9FAEE;
     --selector: #DCFF93;
     --text: #393D10;
-    --white: #FFFFFF;
     --lightbox: rgba(0, 0, 0, 0.9);
-    --close: rgba(240, 240, 240, 0.7);
+    --close: #FFFFFF;
+    --close-hover: rgba(240, 240, 240, 0.7);
     --font-regular: EOR;
     --font-light: EOU;
     --font-monospace: NMM;
     --fw: 100;
+    --close-transition: 0.3s;
+    --border-bottom: 0;
+    --margin: 0 auto;
+    --close-top: 0px;
+    --line-style: 1px dashed;
+    --space-sm: 20px;
+    --space-sm-plus-1: 25px;
     --space-md: 30px;
+    --space-md-plus-1: 40px;
+    --space-md-plus-2: 60px;
     --space-lg: 70px;
+    --img-width-condensed: 250px;
+    --img-width-regular: 300px;
+    --padding-top: 10vh;
+    --img-max-height-md: 80vh;
+    --img-max-height-lg: 90vh;
+    --img-max-height-xl: 100vh;
+    --max-dimension-md: 50%;
+    --max-dimension-lg: 70%;
+    --max-dimension-xl: 80%;
+    --max-dimension-xxl: 85%;
+    --z-index: 9999;
 }
 
 ::selection {
@@ -52,21 +72,21 @@ h1 {
     color: var(--text);
     font-family: var(--font-regular);
     font-weight: var(--fw);
-    font-size: 40px;
+    font-size: var(--space-md-plus-1);
 }
 
 h2 {
     color: var(--text);
     font-family: var(--font-light);
     font-weight: var(--fw);
-    font-size: 30px;
+    font-size: var(--space-md);
 }
 
 h3 {
     color: var(--text);
     font-family: var(--font-monospace);
     font-weight: var(--fw);
-    font-size: 20px;
+    font-size: var(--space-sm);
 }
 
 .mb-md { margin-bottom: var(--space-md); }
@@ -74,24 +94,24 @@ h3 {
 
 .heading-link {
     color: var(--text);
+    border-bottom: var(--line-style);
     text-decoration: none;
-    border-bottom: 1px dashed;
 }
 
 .heading-link:hover {
+    border-bottom: var(--border-bottom);
     text-decoration: none;
-    border-bottom: 0;
     cursor: ne-resize;
 }
 
 .content {
-    padding-top: 10vh;
+    padding-top: var(--padding-top);
     text-align: center;
 }
 
 .content-container {
     width: 80%;
-    margin: 0 auto;
+    margin: var(--margin);
 }
 
 .img-display .gallery {
@@ -101,82 +121,78 @@ h3 {
     align-items: flex-start;
 }
 
-.img-display .gallery-item {
-    margin: 25px;
-}
+.img-display .gallery-item { margin: var(--space-sm-plus-1); }
   
 .img-display .gallery-image {
-    width: 300px;
+    width: var(--img-width-regular);
     height: auto;
 }
 
-.img-display .gallery-image:hover {
-    cursor: zoom-in;
-}
+.img-display .gallery-image:hover { cursor: zoom-in; }
 
 .lightbox {
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
+    top: var(--border-bottom);
+    left: var(--border-bottom);
     background-color: var(--lightbox);
+    z-index: var(--z-index);
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 9999;
+    position: fixed;
     cursor: zoom-out;
 }
   
 .lightbox img {
-    max-width: 50%;
-    max-height: 50%;
+    max-width: var(--max-dimension-md);
+    max-height: var(--max-dimension-md);
     object-fit: contain;
 }
 
 .close {
-    position: absolute;
-    top: 0px;
-    right: 25px;
-    font-size: 60px;
+    top: var(--close-top);
+    right: var(--space-sm-plus-1);
+    font-size: var(--space-md-plus-2);
     font-family: EOR;
-    color: var(--white);
+    color: var(--close);
+    position: absolute;
     cursor: pointer;
 }
 
 .close:hover {
-    color: var(--close);
-    transition: 0.3s;
+    color: var(--close-hover);
+    transition: var(--close-transition);
 }
   
 @media screen and (max-width: 400px) {
     .img-display .gallery-image {
-        width: 250px;
+        width: var(--img-width-condensed);
     }
     
     .lightbox img {
-        max-width: 85%;
-        max-height: 80vh;
+        max-width: var(--max-dimension-xxl);
+        max-height: var(--img-max-height-md);
     }
 }
 
 @media screen and (min-width: 401px) and (max-width: 550px) {
     .lightbox img {
-        max-width: 80%;
-        max-height: 90vh;
+        max-width: var(--max-dimension-xl);
+        max-height: var(--img-max-height-lg);
     }
 }
 
 @media screen and (min-width: 550px) and (max-width: 700px) {
     .lightbox img {
-        max-width: 70%;
-        max-height: 100vh;
+        max-width: var(--max-dimension-lg);
+        max-height: var(--img-max-height-xl);
     }
 }
 
 @media screen and (min-width: 701px) {
     .lightbox img {
-        max-width: 80%;
-        max-height: 100vh;
+        max-width: var(--max-dimension-xl);
+        max-height: var(--img-max-height-xl);
     }
 }
