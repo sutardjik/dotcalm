@@ -39,19 +39,19 @@ body {
     --font-light: EOU;
     --font-monospace: NMM;
     --fw: 100;
-    --close-transition: 0.3s;
     --border-bottom: 0;
+    --line-height: 1.5;
     --margin: 0 auto;
+    --close-transition: 0.3s;
     --close-top: 0px;
     --line-style: 1px dashed;
-    --space-sm: 20px;
-    --space-sm-plus-1: 25px;
+    --space-xs: 20px;
+    --space-sm: 25px;
     --space-md: 30px;
-    --space-md-plus-1: 40px;
-    --space-md-plus-2: 60px;
-    --space-lg: 70px;
-    --img-width-condensed: 250px;
-    --img-width-regular: 300px;
+    --space-lg: 40px;
+    --space-xl: 60px;
+    --space-xxl: 70px;
+    --img-width: 300px;
     --padding-top: 10vh;
     --img-max-height-md: 80vh;
     --img-max-height-lg: 90vh;
@@ -72,7 +72,7 @@ h1 {
     color: var(--text);
     font-family: var(--font-regular);
     font-weight: var(--fw);
-    font-size: var(--space-md-plus-1);
+    font-size: var(--space-lg);
 }
 
 h2 {
@@ -80,17 +80,18 @@ h2 {
     font-family: var(--font-light);
     font-weight: var(--fw);
     font-size: var(--space-md);
+    line-height: var(--line-height);
 }
 
 h3 {
     color: var(--text);
     font-family: var(--font-monospace);
     font-weight: var(--fw);
-    font-size: var(--space-sm);
+    font-size: var(--space-xs);
 }
 
 .mb-md { margin-bottom: var(--space-md); }
-.mb-lg { margin-bottom: var(--space-lg); }
+.mb-lg { margin-bottom: var(--space-xxl); }
 
 .heading-link {
     color: var(--text);
@@ -110,7 +111,7 @@ h3 {
 }
 
 .content-container {
-    width: 80%;
+    width: var(--max-dimension-xl);
     margin: var(--margin);
 }
 
@@ -121,10 +122,10 @@ h3 {
     align-items: flex-start;
 }
 
-.img-display .gallery-item { margin: var(--space-sm-plus-1); }
+.img-display .gallery-item { margin: var(--space-sm); }
   
 .img-display .gallery-image {
-    width: var(--img-width-regular);
+    width: var(--img-width);
     height: auto;
 }
 
@@ -152,10 +153,10 @@ h3 {
 
 .close {
     top: var(--close-top);
-    right: var(--space-sm-plus-1);
-    font-size: var(--space-md-plus-2);
-    font-family: EOR;
+    right: var(--space-sm);
     color: var(--close);
+    font-size: var(--space-xl);
+    font-family: EOR;
     position: absolute;
     cursor: pointer;
 }
@@ -167,7 +168,7 @@ h3 {
   
 @media screen and (max-width: 400px) {
     .img-display .gallery-image {
-        width: var(--img-width-condensed);
+        width: 100%;
     }
     
     .lightbox img {

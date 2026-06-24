@@ -37,7 +37,7 @@ const Gallery = () => {
   ];
 
   return (
-    <div className="gallery">
+    <section className="gallery">
       {images.map((image, index) => (
         <div key={index} className="gallery-item">
           <img
@@ -52,7 +52,7 @@ const Gallery = () => {
       {lightboxImage && (
         <Lightbox imageSrc={lightboxImage} onClose={closeLightbox} />
       )}
-    </div>
+    </section>
   );
 };
 
