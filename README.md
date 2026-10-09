@@ -8,6 +8,6 @@ Over time, .calm has grown beyond a simple gallery. Its deliberate curation, ite
 
 ## Acknowledgments
 
-Internet-sourced works not my own are credited to [Jerry-Lee Bosmans](https://www.byjer.com/), [FRAME](https://frameweb.com/), [Bottega Veneta](https://www.bottegaveneta.com/en-us), [Nicole Miller-Wong](https://nicolemillerwong.com/), [Completedworks](https://us.completedworks.com/), [Acne Studios](https://www.acnestudios.com/), [STUDIOTWENTYSEVEN](https://studiotwentyseven.com/), and [Twisha Patni](https://www.twishapatni.com/).
+Internet-sourced works not my own are credited to [Jerry-Lee Bosmans](https://www.byjer.com/), [FRAME](https://frameweb.com/), [Bottega Veneta](https://www.bottegaveneta.com/en-us), [Nicole Miller-Wong](https://nicolemillerwong.com/), [Completedworks](https://us.completedworks.com/), [Acne Studios](https://www.acnestudios.com/), [STUDIOTWENTYSEVEN](https://studiotwentyseven.com/), [Twisha Patni](https://www.twishapatni.com/), [Gentle Monster](https://www.gentlemonster.com/us/en), and [Isabel Foo](https://www.behance.net/isabelfoo).
 
 All selections are independent and not affiliated with, endorsed by, or sponsored by the above.
