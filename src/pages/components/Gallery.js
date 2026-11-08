@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Lightbox from './Lightbox';
 
-import whiterabbit from "../../img/whiterabbit.png";
+import sixnfive from "../../img/sixnfive.png";
 import gentlemonster from "../../img/gentlemonster.png";
 import bloom from "../../img/bloom.png";
 import studiotwentyseven from "../../img/studiotwentyseven.png";
@@ -26,7 +26,7 @@ const Gallery = () => {
   };
 
   const images = [
-    { src: whiterabbit, alt: "" },
+    { src: sixnfive, alt: "" },
     { src: gentlemonster, alt: "" },
     { src: bloom, alt: "" },
     { src: studiotwentyseven, alt: "" },
