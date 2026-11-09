@@ -3,8 +3,7 @@ import React from 'react';
 const Lightbox = ({ imageSrc, onClose }) => {
   return (
     <main className="lightbox" onClick={onClose}>
-      <section className="lightbox-content">
-        <span className="close" onClick={onClose}>&times;</span>
+      <section className="lightbox-content" onClick={(event) => event.stopPropagation()}>
         <img src={imageSrc} alt="" />
       </section>
     </main>

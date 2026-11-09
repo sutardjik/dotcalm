@@ -33,8 +33,6 @@ body {
     --selector: #DCFF93;
     --text: #393D10;
     --lightbox: rgba(0, 0, 0, 0.9);
-    --close: #FFFFFF;
-    --close-hover: rgba(240, 240, 240, 0.7);
     --font-regular: EOR;
     --font-light: EOU;
     --font-monospace: NMM;
@@ -42,8 +40,6 @@ body {
     --border-bottom: 0;
     --line-height: 1.5;
     --margin: 0 auto;
-    --close-transition: 0.3s;
-    --close-top: 0px;
     --line-style: 1px dashed;
     --space-xs: 20px;
     --space-sm: 25px;
@@ -149,21 +145,7 @@ h3 {
     max-width: var(--max-dimension-md);
     max-height: var(--max-dimension-md);
     object-fit: contain;
-}
-
-.close {
-    top: var(--close-top);
-    right: var(--space-sm);
-    color: var(--close);
-    font-size: var(--space-xl);
-    font-family: EOR;
-    position: absolute;
-    cursor: pointer;
-}
-
-.close:hover {
-    color: var(--close-hover);
-    transition: var(--close-transition);
+    cursor: default;
 }
   
 @media screen and (max-width: 400px) {
